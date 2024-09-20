@@ -1,0 +1,37 @@
+body {
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+  background-color: #ecf0f1;
+  height: auto;
+  font-family: Urbanist;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 3.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+  margin-bottom: 3.2rem;
+}
+
+.menu_images {
+  display: flex;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Add a transition property to the images */
+img {
+  width: 32rem;
+  height: 100%;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
